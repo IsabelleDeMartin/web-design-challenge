@@ -28,20 +28,16 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="visualizations/cloudiness.html">Action</a>
-                            <a class="dropdown-item" href="visualizations\temp.html">Another action</a>
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a></li>
+                            <li><a class="dropdown-item" href="visualizations/temp.html">Temp/a></li>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="visualizations\temp.html">Something else here</a>
-                        </div>
+                            <a class="dropdown-item" href="visualizations/humidity.html">humidity/a>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
+
+
                 </ul>
             </div>
         </div>
@@ -51,20 +47,15 @@
             <div class="col-md-8">
                 <article class="description-content">
                     <h1>Summary Latitude vs. X</h1>
-                    <img src="Resources\assets\images\Fig1.png">
-                    <p>Eat well, stay fit, die anyway. We will now upgrade your brain, please wait…
-                        Searching…searching…still searching… Sorry, NO BRAIN found…!
+                    <img src="Resources\assets\images\Fig1.png" id="descriptionimage" />
+                    <p>This project analyses how weather changes as you get closer to the requator.
+                        To accomplish this
+                        analysis, we pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
 
-                        Hey pal, what name would you call a dog that has no both legs?…well it does not matter what name
-                        you might call him, trust me he is not coming!
-
-                        I realized that you will always be my friend when our depressive and manic episodes
-                        synchronized. It’s so fun to do crazy stuff and then cry all night long with someone like you,
-                        buddy.
-
-                        My name is little dancing man but you can call me dark and every day I do a jig from morning
-                        until dark. Fine lassies come from far and wide to watch me shake my touch and if they start to
-                        crowd me 1 yell ‘ladies’ please don’t push!</p>
+                        After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs.
+                        latitude. Factors we look at included: temperature, cloudiness, wind speed, and humidity.
+                        The site provides the source data and visualizations created as part o the analysis, as well as
+                        explanations and descriptions of any trends and correlations witnessed.</p>
 
 
                 </article>

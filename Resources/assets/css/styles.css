@@ -6,3 +6,10 @@
     border: 1px solid black;
   }
 
+  #descriptionimage {
+    /* relative positioning */
+    float:left;  
+    width: 200px;
+    height: 200px;
+    background: #2db34a;
+  }
