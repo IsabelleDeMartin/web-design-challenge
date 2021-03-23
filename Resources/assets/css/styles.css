@@ -1,8 +1,8 @@
 .thumbnail {
     /* relative positioning */
-    position: relative;
     width: 150px;
     height: 150px;
     background: #2db34a;
-    border: 2px solid black;
+    border: 1px solid black;
   }
+
